@@ -1,0 +1,25 @@
+{
+  "name": "fis3-parser-css-next",
+  "version": "1.0.0",
+  "description": "parse css-next with postcss for fis3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fex-team/fis3-parser-css-next.git"
+  },
+  "keywords": [
+    "fis3",
+    "parser",
+    "postcss",
+    "css-next"
+  ],
+  "author": "fex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fex-team/fis3-parser-css-next/issues"
+  },
+  "homepage": "https://github.com/fex-team/fis3-parser-css-next#readme"
+}
