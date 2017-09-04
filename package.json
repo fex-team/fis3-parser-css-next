@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/fex-team/fis3-parser-css-next/issues"
   },
-  "homepage": "https://github.com/fex-team/fis3-parser-css-next#readme"
+  "homepage": "https://github.com/fex-team/fis3-parser-css-next#readme",
+  "dependencies": {
+    "doiuse": "3.0.1",
+    "postcss": "6.0.10",
+    "postcss-cssnext": "3.0.2",
+    "postcss-import-sync": "7.1.4",
+    "postcss-mixins": "6.1.0",
+    "postcss-reporter": "5.0.0"
+  }
 }
