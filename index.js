@@ -30,12 +30,10 @@ module.exports = function(content, file, conf) {
   if (ret.map) {
     var mapping = fis.file.wrap(file.dirname + '/' + file.filename + file.rExt + '.map');
 
-    mapping.setContent(ret.result.map.toString('utf8'));
-
     // 修改 source 文件名。
-    // var sourceMapObj = JSON.parse(ret.map.toString('utf8'));
-    // sourceMapObj.sources = [file.subpath];
-    // mapping.setContent(JSON.stringify(sourceMapObj, null, 4));
+    var sourceMapObj = JSON.parse(ret.map.toString('utf8'));
+    sourceMapObj.sources[0] = file.subpath;
+    mapping.setContent(JSON.stringify(sourceMapObj, null, 4));
     
     var url = mapping.getUrl(fis.compile.settings.hash, fis.compile.settings.domain);
 
