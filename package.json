@@ -1,6 +1,6 @@
 {
   "name": "fis3-parser-css-next",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "parse css-next with postcss for fis3",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "postcss": "6.0.10",
     "postcss-cssnext": "3.0.2",
     "postcss-import-sync": "7.1.4",
+    "postcss-import-sync2": "1.0.0",
     "postcss-mixins": "6.1.0",
     "postcss-reporter": "5.0.0"
   }
